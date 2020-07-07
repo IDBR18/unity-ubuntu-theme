@@ -1,0 +1,264 @@
+#dash .show-apps .overview-icon {
+  background-color: rgba(233, 84, 32, 0.9) !important;
+  border-radius: 9999px;
+}
+
+#dash .show-apps:hover .overview-icon, #dash .show-apps:focus .overview-icon, #dash .show-apps:checked .overview-icon {
+  background-color: rgba(206, 68, 20, 0.9) !important;
+}
+
+.dash-item-container > StWidget {
+  padding: 3px 6px;
+}
+
+.dash-label, .window-caption {
+  transition-duration: 150ms;
+  border-radius: 6px;
+  padding: 8px;
+  color: #ffffff;
+  background-color: #111111;
+  border: 1px solid rgba(244, 244, 244, 0.1);
+  text-align: center;
+  -x-offset: 8px;
+}
+
+#dash StWidget {
+  transition-duration: 250ms;
+}
+
+#dashtodockContainer StWidget {
+  background-color: transparent;
+  box-shadow: none;
+}
+
+#dashtodockContainer .app-well-app-running-dot {
+  background-color: none;
+  width: 28px;
+  height: 4px;
+}
+
+#dashtodockContainer.left #dash {
+  border-width: 0px;
+  box-shadow: inset -1px 0 rgba(244, 244, 244, 0.1);
+}
+
+#dashtodockContainer.right #dash {
+  border-width: 0px;
+  box-shadow: inset 1px 0 rgba(244, 244, 244, 0.1);
+}
+
+#dashtodockContainer.top #dash {
+  border-width: 0px;
+  box-shadow: inset 0px -1 rgba(244, 244, 244, 0.1);
+}
+
+#dashtodockContainer.bottom #dash {
+  border-width: 0px;
+  box-shadow: inset 0px 1 rgba(244, 244, 244, 0.1);
+}
+
+#dashtodockContainer #dash .app-well-app:hover .overview-icon {
+  background-color: rgba(233, 84, 32, 0.25);
+}
+
+#dashtodockContainer #dash .app-well-app:active .overview-icon {
+  background-color: rgba(218, 72, 22, 0.25);
+}
+
+#dashtodockContainer #dash .running1 .app-well-app-running-dot {
+  background-image: url("assets/dash/running1-indicator.svg");
+}
+
+#dashtodockContainer #dash .running2 .app-well-app-running-dot {
+  background-image: url("assets/dash/running2-indicator.svg");
+}
+
+#dashtodockContainer #dash .running3 .app-well-app-running-dot {
+  background-image: url("assets/dash/running3-indicator.svg");
+}
+
+#dashtodockContainer #dash .running4 .app-well-app-running-dot {
+  background-image: url("assets/dash/running4-indicator.svg");
+}
+
+/* App Vault/Grid */
+.icon-grid {
+  spacing: 30px;
+  -shell-grid-horizontal-item-size: 136px;
+  -shell-grid-vertical-item-size: 136px;
+}
+
+.icon-grid .overview-icon {
+  icon-size: 96px;
+}
+
+.app-view-controls {
+  width: 320px;
+  margin-bottom: 50px;
+  background-color: rgba(17, 17, 17, 0.75);
+  border-radius: 6px 6px 0 0;
+  padding: 0;
+}
+
+.app-view-control {
+  padding: 0 32px;
+  font-weight: 400;
+}
+
+.app-view-control .button {
+  border: 1px solid rgba(244, 244, 244, 0.1);
+}
+
+.app-view-control .button:first-child {
+  border-right-style: none;
+  border-radius: 6px 0 0 6px;
+}
+
+.app-view-control .button:last-child {
+  border-left-style: none;
+  border-radius: 0 6px 6px 0;
+}
+
+.app-view-control, .app-view-control:hover, .app-view-control:focus, .app-view-control:active, .app-view-control:checked {
+  background-color: rgba(0, 0, 0, 0.1) !important;
+  transition-duration: 250ms;
+}
+
+.app-view-control {
+  color: rgba(255, 255, 255, 0.6);
+  box-shadow: inset 0 -2px 0px rgba(255, 255, 255, 0.6);
+}
+
+.app-view-control:hover, .app-view-control:focus {
+  color: #ffffff;
+  box-shadow: #ffffff;
+  box-shadow: inset 0 -2px 0px #ffffff;
+}
+
+.app-view-control:active, .app-view-control:checked {
+  color: #E95420;
+  box-shadow: inset 0 -2px 0px #E95420;
+  font-weight: bold;
+}
+
+.search-provider-icon:focus, .search-provider-icon:selected, .search-provider-icon:hover, .search-provider-icon:active, .search-provider-icon:checked,
+.list-search-result:focus,
+.list-search-result:selected,
+.list-search-result:hover,
+.list-search-result:active,
+.list-search-result:checked {
+  box-shadow: inset 0 0px 0px 1px rgba(244, 244, 244, 0.1);
+}
+
+.search-provider-icon:focus, .search-provider-icon:selected, .search-provider-icon:hover,
+.list-search-result:focus,
+.list-search-result:selected,
+.list-search-result:hover {
+  background-color: rgba(96, 96, 96, 0.2);
+  transition-duration: 150ms;
+}
+
+.search-provider-icon:active, .search-provider-icon:checked,
+.list-search-result:active,
+.list-search-result:checked {
+  background-color: rgba(96, 96, 96, 0.1);
+  transition-duration: 250ms;
+}
+
+.app-well-app:hover .overview-icon,
+.app-well-app:focus .overview-icon,
+.app-well-app:selected .overview-icon,
+.app-well-app.app-folder:hover .overview-icon,
+.app-well-app.app-folder:focus .overview-icon,
+.app-well-app.app-folder:selected .overview-icon,
+.grid-search-result:hover .overview-icon,
+.grid-search-result:focus .overview-icon,
+.grid-search-result:selected .overview-icon {
+  background-color: rgba(96, 96, 96, 0.2);
+  box-shadow: inset 0 0px 0px 1px rgba(244, 244, 244, 0.1);
+  transition-duration: 0s;
+  border-image: none;
+  background-image: none;
+}
+
+.app-well-app:active .overview-icon,
+.app-well-app:checked .overview-icon,
+.app-well-app.app-folder:active .overview-icon,
+.app-well-app.app-folder:checked .overview-icon,
+.grid-search-result:active .overview-icon,
+.grid-search-result:checked .overview-icon {
+  background-color: rgba(96, 96, 96, 0.1);
+  box-shadow: inset 0 0px 0px 1px rgba(244, 244, 244, 0.1);
+  transition-duration: 250ms;
+}
+
+.app-well-app-running-dot {
+  width: 24px;
+  height: 2px;
+  background-color: #E95420;
+  margin-bottom: 1px;
+}
+
+.search-provider-icon,
+.list-search-result, .app-well-app .overview-icon,
+.app-well-app.app-folder .overview-icon,
+.grid-search-result .overview-icon {
+  color: #ffffff;
+  border-radius: 6px;
+  padding: 6px;
+  border: none;
+  transition-duration: 250ms;
+  text-align: center;
+}
+
+.search-provider-icon:hover,
+.list-search-result:hover, .app-well-app .overview-icon:hover,
+.grid-search-result .overview-icon:hover {
+  background-color: rgba(96, 96, 96, 0.2) !important;
+}
+
+.search-provider-icon:active,
+.list-search-result:active, .app-well-app .overview-icon:active,
+.grid-search-result .overview-icon:active {
+  background-color: rgba(96, 96, 96, 0.1) !important;
+}
+
+.show-apps .overview-icon {
+  background-image: url("assets/ubuntu-launcher.svg") !important;
+  background-size: contain !important;
+}
+
+.show-apps StWidget, .show-apps StWidget:checked, .show-apps StWidget:hover, .show-apps StWidget:active {
+  background-color: transparent !important;
+  color: transparent;
+  border-width: 0px;
+}
+
+#dashtodockContainer .show-apps .overview-icon, .dashtopanelMainPanel .show-apps .overview-icon {
+  border-radius: 9999px;
+}
+
+#dashtodockContainer .show-apps:hover .overview-icon, .dashtopanelMainPanel .show-apps:hover .overview-icon {
+  background-color: red;
+}
+
+#dashtodockContainer .show-apps:checked .overview-icon, #dashtodockContainer .show-apps:active .overview-icon, .dashtopanelMainPanel .show-apps:checked .overview-icon, .dashtopanelMainPanel .show-apps:active .overview-icon {
+  background-color: blue;
+}
+
+#dashtodockContainer.extended .show-apps .overview-icon {
+  border-radius: 0px;
+  background-color: transparent !important;
+}
+
+#dashtodockContainer.extended .show-apps {
+  background-color: rgba(233, 84, 32, 0.9) !important;
+}
+
+#dashtodockContainer.extended .show-apps:hover {
+  background-color: rgba(235, 102, 55, 0.9) !important;
+}
+
+#dashtodockContainer.extended .show-apps:checked, #dashtodockContainer.extended .show-apps:active {
+  background-color: rgba(218, 72, 22, 0.9) !important;
+}
