@@ -263,14 +263,6 @@
   background-color: rgba(218, 72, 22, 0.9) !important;
 }
 
-/* TOP BAR */
-#panel {
-  background-color: #4C2D49;
-  box-shadow: none;
-  font-size: 9.5pt;
-  height: 30px;
-}
-
 #panel .clock-display StBoxLayout:last-child > StLabel:last-child {
   color: #E95420;
 }
