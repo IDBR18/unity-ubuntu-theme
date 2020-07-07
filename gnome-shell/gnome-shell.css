@@ -224,7 +224,7 @@
 }
 
 .show-apps .overview-icon {
-  background-image: url("assets/ubuntu-launcher.svg") !important;
+  background-image: url("ubuntu-launcher.svg") !important;
   background-size: contain !important;
 }
 
