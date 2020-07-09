@@ -304,7 +304,7 @@
 
 /* TOP BAR */
 #panel {
-  background-color: #4C2D49;
+  background-color: rgba(76, 45, 73, 0.8);
   box-shadow: none;
   font-size: 9.5pt;
   height: 30px;
