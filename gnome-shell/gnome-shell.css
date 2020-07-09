@@ -31,6 +31,10 @@
   box-shadow: none;
 }
 
+#dashtodockContainer.dashtodock #dash {
+    background: rgba(76, 45, 73, 0.8); 
+}
+
 #dashtodockContainer .app-well-app-running-dot {
   background-color: none;
   width: 28px;
