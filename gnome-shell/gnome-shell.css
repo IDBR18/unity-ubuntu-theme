@@ -182,7 +182,7 @@
 .grid-search-result:hover .overview-icon,
 .grid-search-result:focus .overview-icon,
 .grid-search-result:selected .overview-icon {
-  background-color: rgba(76, 45, 73, 0.7);
+  background-color: rgba(233, 84, 32, 0.7);
   box-shadow: inset 0 0px 0px 1px rgba(244, 244, 244, 0.1);
   transition-duration: 0s;
   border-image: none;
@@ -201,10 +201,10 @@
 }
 
 .app-well-app-running-dot {
-  width: 24px;
-  height: 2px;
-  background-color: #E95420;
-  margin-bottom: 1px;
+  width: 60px;
+  height: 4px;
+  background-color: #ffffff;
+  margin-bottom: 0px;
 }
 
 .search-provider-icon,
