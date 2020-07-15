@@ -4966,7 +4966,7 @@ list.tweak-categories separator {
    ***********/
 .nautilus-window {
   background-image: none;
-  background-color: white; }
+  background-color: rgba(255, 255, 255, 1); }
   .nautilus-window .nautilus-canvas-item.dim-label, .nautilus-window label.nautilus-canvas-item.separator,
   .nautilus-window headerbar .nautilus-canvas-item.subtitle,
   headerbar .nautilus-window .nautilus-canvas-item.subtitle, .nautilus-window .titlebar:not(headerbar) .nautilus-canvas-item.subtitle, .titlebar:not(headerbar) .nautilus-window .nautilus-canvas-item.subtitle,
@@ -5043,7 +5043,7 @@ list.tweak-categories separator {
     border-radius: 4px; }
   .nautilus-window .path-bar-box.width-maximized {
     border: 0px solid #1b1a1a;
-    background-color: #352232; }
+    background-color: #4C2D49; }
     .nautilus-window .path-bar-box.width-maximized:backdrop {
       border-color: #352232; }
   .nautilus-window .path-bar-box.width-maximized button:first-child {
@@ -5095,10 +5095,10 @@ list.tweak-categories separator {
  * Terminal *
  ************/
 terminal-window .terminal-screen {
-  background-color: #300A24;
+  background-color: #352232;
   color: white; }
   terminal-window .terminal-screen:backdrop {
-    background-color: #380c2a;
+    background-color: #352232;
     color: #fcfcfc; }
 
 terminal-window notebook scrollbar {
@@ -5503,6 +5503,7 @@ spinner:not(:backdrop) {
   color: #19B6EE; }
 
 button.titlebutton:not(.appmenu) {
+  color: #ffffff;
   min-height: 24px;
   min-width: 24px;
   padding: 2px; }
@@ -5912,9 +5913,9 @@ levelbar block.high, levelbar block:not(.empty) {
 headerbar,
 .titlebar {
   background: #4C2D49 linear-gradient(to top, #4C2D49, #4C2D49);
-  box-shadow: inset 0 1px #474444;
-  color: #F7F7F7;
-  border-color: #201f1f; }
+  box-shadow: inset 0 1px #4C2D49;
+  color: #ffffff;
+  border-color: #E95420; }
   headerbar label .title,
   .titlebar label .title {
     color: #F7F7F7; }
@@ -5922,6 +5923,7 @@ headerbar,
   .titlebar:backdrop {
     border-color: #3D3D3D;
     background-color: #352232;
+    color: #ffffff;
     box-shadow: inset 0 1px #474444; }
   .maximized headerbar, .fullscreen headerbar, .maximized .titlebar, .fullscreen .titlebar {
     box-shadow: none; }
@@ -5957,9 +5959,9 @@ headerbar,
   .titlebar stackswitcher button,
   .titlebar filechooser .path-bar.linked > button,
   .titlebar .path-bar button {
-    color: #F7F7F7;
+    color: #ffffff;
     outline-color: rgba(17, 164, 39, 0.7);
-    border-color: #E95420;
+    border-color: #4C2D49;
     background-image: image(#E95420);
     text-shadow: 0 -1px rgba(0, 0, 0, 0.786275);
     -gtk-icon-shadow: 0 -1px rgba(0, 0, 0, 0.786275);
@@ -7152,11 +7154,11 @@ headerbar,
     .titlebar filechooser .path-bar.linked > button:disabled,
     .titlebar .path-bar button:disabled {
       border-color: #010101;
-      background-image: image(#352232);
+      background-image: image(#4C2D49);
       text-shadow: none;
       -gtk-icon-shadow: none;
       box-shadow: inset 0 1px rgba(255, 255, 255, 0);
-      border-color: #352232; }
+      border-color: #4C2D49; }
       headerbar button:disabled label, headerbar button:disabled,
       headerbar button.toggle:disabled label,
       headerbar button.toggle:disabled,

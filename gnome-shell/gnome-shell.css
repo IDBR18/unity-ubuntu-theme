@@ -30,15 +30,15 @@ stage {
 
 .workspace-switcher-container, .switcher-list, .resize-popup, .osd-window {
   color: #eeeeec;
-  background-color: rgba(29, 29, 29, 0.975);
-  border: 1px solid rgba(255, 255, 255, 0.16);
+  background-color: rgba(76, 45, 73, 0.975);
+  border: 4px solid rgba(233, 84, 32, 0.5);
   border-radius: 12px;
   padding: 12px;
   box-shadow: 0 3px 9px 1px rgba(0, 0, 0, 0.5); }
 
 .workspace-thumbnails, #dash {
   color: #eeeeec;
-  background-color: rgba(29, 29, 29, 0.775);
+  background-color: rgba(76, 45, 73, 0.775);
   border: 1px solid rgba(255, 255, 255, 0.16); }
 
 .show-apps .overview-icon, .app-well-app .overview-icon,
@@ -433,7 +433,7 @@ StScrollBar {
   border-radius: 6px;
   margin: 4px;
   color: #3D3D3D;
-  background-color: white;
+  background-color: #ffffff;
   border-color: #cccccc;
   box-shadow: 0 1px rgba(0, 0, 0, 0.1);
   text-shadow: 0 1px rgba(255, 255, 255, 0.3);
@@ -1078,7 +1078,7 @@ StScrollBar {
     background-color: rgba(238, 238, 236, 0.1);
     box-shadow: inset 0 2px 2px 0 rgba(0, 0, 0, 0.4); }
   .switcher-list .item-box:selected {
-    background-color: rgba(238, 238, 236, 0.2);
+    background-color: rgba(233, 84, 32, 0.2);
     color: #eeeeec; }
 
 .switcher-list .thumbnail-box {
@@ -1139,7 +1139,7 @@ StScrollBar {
 
 /* Top Bar */
 #panel {
-  background-color: #4C2D49;
+  background-color: rgba(76, 45, 73, 0.9);
   font-weight: bold;
   height: 1.86em;
   font-feature-settings: "tnum"; }
@@ -1295,7 +1295,7 @@ StScrollBar {
     background-color: transparent; }
 
 .search-section-content {
-  background-color: rgba(42, 42, 42, 0.775);
+  background-color: rgba(53, 34, 50, 0.775);
   border-radius: 9px;
   border: 1px solid rgba(255, 255, 255, 0.16);
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
@@ -2244,7 +2244,7 @@ StScrollBar {
   
   
  .show-apps .overview-icon {
-  background-image: url("assets/ubuntu-app-launcher.png") !important;
+  background-image: url("assets/ubuntu-launcher.svg") !important;
   background-size: contain !important;
 }
 
@@ -2255,12 +2255,12 @@ StScrollBar {
 }
 
 #dash .show-apps .overview-icon {
-  background-color: rgba(233, 84, 32, 0) !important;
-  border-radius: 0px;
+  background-color: rgba(233, 84, 32, 1) !important;
+  border-radius: 90px;
 }
 
 #dash .show-apps:hover .overview-icon, #dash .show-apps:focus .overview-icon, #dash .show-apps:checked .overview-icon {
-  background-color: rgba(206, 68, 20, 0) !important;
+  background-color: rgba(206, 68, 20, 1) !important;
 }
 
 .dash-item-container > StWidget {
