@@ -2116,7 +2116,7 @@ StScrollBar {
 #dashtodockContainer.shrink #dash, #dashtodockContainer.dashtodock #dash {
   border: 1px;
   padding: 0px;
-  background-color: rgba(76, 45, 73, 0.9) !important; }
+  background-color: rgba(53, 34, 50, 0.7) !important; }
 
 #dashtodockContainer.shrink.left #dash, #dashtodockContainer.dashtodock.left #dash {
   border-left: 0px;
@@ -2247,7 +2247,7 @@ StScrollBar {
   
   
  .show-apps .overview-icon {
-  background-image: url("assets/ubuntu-launcher.svg") !important;
+  background-image: url("assets/view-app-grid-symbolic.png") !important;
   background-size: contain !important;
 }
 
@@ -2258,110 +2258,14 @@ StScrollBar {
 }
 
 #dash .show-apps .overview-icon {
-  background-color: rgba(233, 84, 32, 1) !important;
-  border-radius: 90px;
+  background-color: rgba(233, 84, 32, 0) !important;
+  border-radius: 0px;
 }
 
 #dash .show-apps:hover .overview-icon, #dash .show-apps:focus .overview-icon, #dash .show-apps:checked .overview-icon {
-  background-color: rgba(206, 68, 20, 1) !important;
+  background-color: rgba(206, 68, 20, 0) !important;
+  border-radius: 4px;
 }
 
-.dash-item-container > StWidget {
-  padding: 3px 6px;
-}
-
-#dashtodockContainer StWidget {
-  background-color: none;
-  box-shadow: none;
-}
-
-#dashtodockContainer.dashtodock #dash {
-    background: rgba(76, 45, 73, 0.8); 
-}
-
-#dashtodockContainer .app-well-app-running-dot {
-  background-color: transparent;
-  width: 28px;
-  height: 4px;
-}
-
-#dashtodockContainer.left #dash {
-  border-width: 0px;
-  box-shadow: inset -1px 0 rgba(244, 244, 244, 0.1);
-}
-
-#dashtodockContainer.right #dash {
-  border-width: 0px;
-  box-shadow: inset 1px 0 rgba(244, 244, 244, 0.1);
-}
-
-#dashtodockContainer.top #dash {
-  border-width: 0px;
-  box-shadow: inset 0px -1 rgba(244, 244, 244, 0.1);
-}
-
-#dashtodockContainer.bottom #dash {
-  border-width: 0px;
-  box-shadow: inset 0px 1 rgba(244, 244, 244, 0.1);
-}
-
-#dashtodockContainer #dash .app-well-app:hover .overview-icon {
-  background-color: rgba(218, 72, 22, 0.25);
-}
-
-#dashtodockContainer #dash .app-well-app:active .overview-icon {
-  background-color: rgba(218, 72, 22, 0.25);
-}
-
-#dashtodockContainer #dash .app-well-app:active .overview-icon {
-  background-color: rgba(218, 72, 22, 0.25);
-}
-
-#dashtodockContainer #dash .running1 .app-well-app-running-dot {
-  background-image: url("assets/dash/running1-indicator.svg");
-}
-
-#dashtodockContainer #dash .running2 .app-well-app-running-dot {
-  background-image: url("assets/dash/running2-indicator.svg");
-}
-
-#dashtodockContainer #dash .running3 .app-well-app-running-dot {
-  background-image: url("assets/dash/running3-indicator.svg");
-}
-
-#dashtodockContainer #dash .running4 .app-well-app-running-dot {
-  background-image: url("assets/dash/running4-indicator.svg");
-}
-
-.dash-item-container > StWidget {
-  transition-duration: 100ms;
-  text-align: center;
-  padding: 6px;
-  background-image: url("assets/running-indicator-base.svg");
-  background-size: cover; }
-
-.dash-item-container > StWidget.running1 {
-  background-image: url("assets/running-indicator-dash-1.svg"); }
-
-.dash-item-container > StWidget.running1.focused {
-  background-image: url("assets/running-indicator-dash-1-focused.svg"); }
-
-.dash-item-container > StWidget.running2 {
-  background-image: url("assets/running-indicator-dash-2.svg"); }
-
-.dash-item-container > StWidget.running2.focused {
-  background-image: url("assets/running-indicator-dash-2-focused.svg"); }
-
-.dash-item-container > StWidget.running3 {
-  background-image: url("assets/running-indicator-dash-3.svg"); }
-
-.dash-item-container > StWidget.running3.focused {
-  background-image: url("assets/running-indicator-dash-3-focused.svg"); }
-
-.dash-item-container > StWidget.running4 {
-  background-image: url("assets/running-indicator-dash-4.svg"); }
-
-.dash-item-container > StWidget.running4.focused {
-  background-image: url("assets/running-indicator-dash-4-focused.svg"); }
 
 
