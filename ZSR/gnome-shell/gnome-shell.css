@@ -716,7 +716,7 @@ StScrollBar {
   .message .message-secondary-bin {
     padding: 0 8px; }
     .message .message-secondary-bin > .event-time {
-      color: rgba(61, 61, 61, 0.5);
+      color: rgba(255, 255, 255, 1);
       font-size: 9pt;
       text-align: right;
       /* HACK: the label should be baseline-aligned with a 1em label, fake this with some bottom padding */
