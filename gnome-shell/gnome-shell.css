@@ -246,7 +246,7 @@ StScrollBar {
 /* Popovers/Menus */
 .popup-menu-boxpointer, .candidate-popup-boxpointer {
   -arrow-border-radius: 6px;
-  -arrow-background-color: rgba(76, 45, 73, 1);
+  -arrow-background-color: rgba(53, 34, 50, 1);
   -arrow-border-width: 1px;
   -arrow-border-color: rgba(53, 34, 50, 0.9);
   -arrow-base: 24px;
@@ -1142,7 +1142,7 @@ StScrollBar {
 
 /* Top Bar */
 #panel {
-  background-color: rgba(76, 45, 73, 0.9);
+  background-color: rgba(53, 34, 50, 0.9);
   font-weight: bold;
   height: 1.86em;
   font-feature-settings: "tnum"; }
