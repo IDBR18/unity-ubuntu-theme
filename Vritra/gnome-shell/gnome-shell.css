@@ -316,7 +316,7 @@ StScrollBar {
   .popup-separator-menu-item .popup-separator-menu-item-separator {
     height: 1px;
     margin: 6px 64px;
-    background-color: #352232; }
+    background-color: #E95420; }
     .popup-sub-menu .popup-separator-menu-item .popup-separator-menu-item-separator {
       margin: 0 64px 0 32px; }
 
@@ -1616,8 +1616,8 @@ StScrollBar {
 
 /* Tiled window previews */
 .tile-preview {
-  background-color: rgba(135, 135, 135, 0.2);
-  border: 1px solid rgba(204, 204, 204, 0.8); }
+  background-color: rgba(233, 84, 32, 0.3);
+  border: 2px solid rgba(233, 84, 32, 0.8); }
 
 .tile-preview-left.on-primary {
   border-radius: 0 0 0 0; }
