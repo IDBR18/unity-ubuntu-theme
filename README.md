@@ -1,2 +1,2 @@
-# unity-ubuntu-20.04-theme
-My custom theme for my Ubuntu Desktop
+# Vritra theme for Ubuntu 20.04
+Theme based on yaru 
