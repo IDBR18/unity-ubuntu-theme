@@ -1,9 +1,9 @@
 [X-GNOME-Metatheme]
-Name=Vritra
+Name=Vritra-shade
 Type=X-GNOME-Metatheme
 Comment=Ubuntu Yaru theme
 Encoding=UTF-8
-GtkTheme=Vritra
+GtkTheme=Vritra-shade
 IconTheme=Yaru
 CursorTheme=Yaru
 CursorSize=24
